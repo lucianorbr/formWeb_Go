@@ -10,7 +10,7 @@ import (
 )
 
 func getConnection() (client *mongo.Client, ctx context.Context) {
-	client, err := mongo.NewClient(options.Client().ApplyURI("mongodb://localhost:27017"))
+	client, err := mongo.NewClient(options.Client().ApplyURI("mongodb+srv://api:lKhUOFd33zmwMuCq@cluster0.tijs5.gcp.mongodb.net/?retryWrites=true&w=majority"))
 	if err != nil {
 		log.Fatal(err)
 	}
