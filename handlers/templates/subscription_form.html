@@ -2,27 +2,33 @@
 <html lang="en" xmlns="http://www.w3.org/1999/html">
   <head>
     <meta charset="UTF-8">
-    <title>WebForm</title>
+    <title>Web Form</title>
   </head>
 <body>
 <!-- CSS only -->
-<!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">-->
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel="stylesheet"  type="text/css" href="style.css">
 
-   <div>
-        <h1>Formulário em Golang</h1>
-        <form method="post">
+
+        <form method="post" class="form-group d-flex justify-content-center">
+            <div class="col-md-5 mb-5">
+                <h1 class="d-flex justify-content-center">Formulário em Golang</h1>
+               <div class="form-group">
+                   <label for="name">Nome</label>
+                   <input type="text" class="form-control" id="name" placeholder="Name">
+               </div>
+
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" class="form-control" id="email" placeholder="E-mail">
+                </div>
+
+              <div class="d-flex justify-content-center btn btn-primary">
+                <button type="submit" class="btn btn-primary">Cadastrar</button>
+              </div>
             <div>
-              <label for="name">Name</label>
-              <input type="text" name="name" id="name">
-          <br>
-              <label for="email">Email</label>
-              <input type="email" name="email" id="email">
-            </div>
-            <div>
-                <button type="submit">Cadastrar</button>
-            </div>
+
         </form>
-   </div>
+
 </body>
 </html>
