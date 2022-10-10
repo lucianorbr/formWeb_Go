@@ -15,7 +15,7 @@ Formulário Web em Golang
 - [x] HTML5
 - [x] Booststrap
 
-## O Projeito
+## O Projeto
 - Projeto prático de criação de formulário web em Golang com MongoDB.
 
 
