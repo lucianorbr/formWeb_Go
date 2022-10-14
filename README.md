@@ -2,7 +2,7 @@
 Formulário Web em Golang
 </h1>
 
-<p align="center">Projeto disciplicar.</p>
+<p align="center">Projeto disciplinar.</p>
 
 ## Participantes
 
